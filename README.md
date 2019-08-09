@@ -44,13 +44,14 @@ This program is not recommended for people who are not comfortable with the work
 
 ## Installation and usage
 
-1.  Copy the program into any folder on your computer. One possible option is the Documents folder.
-2.  Double clicking on the program will pop up a message displaying the command line options.
-3.  To run the program from the command line, you should enter the following command from within a DOS windows:  
+1.  Download the latest version from https://github.com/mrsilver76/wmc-dedupe/releases
+2.  Extract the files and copy `wmc-dedupe-1.5.vbs` into any folder on your computer. One possible option is the Documents folder.
+3.  Double clicking on the program will pop up a message displaying the command line options.
+4.  To run the program from the command line, you should enter the following command from within a DOS windows:  
     `cscript wmc-dedupe-1.5.vbs [options]` where  `[options]` are the possible options detailed in the next section.
-4.  All logs are stored within the Application Data folder. The easiest way to access is to enter the following either in the start menu search, from the Run command or in the address of the Explorer window: `%appdata%\wmc-dedupe` This will open the browser window at the location of the logs.
-5.  You can call this program automatically using Windows Task Scheduler. For more details, see the section later.
-6.  You can call this program by double-clicking on an icon. To do this you need to right-click on the program and select "Create Shortcut". When the shortcut appears, right-click on that, select "Properties" and add the command line options to the end of the section entitled "Target".
+5.  All logs are stored within the Application Data folder. The easiest way to access is to enter the following either in the start menu search, from the Run command or in the address of the Explorer window: `%appdata%\wmc-dedupe` This will open the browser window at the location of the logs.
+6.  You can call this program automatically using Windows Task Scheduler. For more details, see the section later.
+7.  You can call this program by double-clicking on an icon. To do this you need to right-click on the program and select "Create Shortcut". When the shortcut appears, right-click on that, select "Properties" and add the command line options to the end of the section entitled "Target".
 
 ## Command line options overview
 
