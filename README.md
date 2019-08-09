@@ -73,7 +73,7 @@ This program is not recommended for people who are not comfortable with the work
         /V          Verbose mode. Log additional information during execution.
         /VV         Very Verbose mode. Log even more information. Implies /V.
 
-**<font color="red">Please note!</font> The `[` and `]` denote optional arguments and the `<` and `>` denote mandatory arguments, both of which should <u>not</u> be used as part of the command line. If you are unsure, please refer to the examples further down this README.**
+**Please note!** The `[` and `]` denote optional arguments and the `<` and `>` denote mandatory arguments, both of which should not be used as part of the command line. If you are unsure, please refer to the examples further down this README.
 
 ## Command line options details
 
