@@ -1,5 +1,11 @@
 # wmc-dedupe
-A script which will identify all duplicate Windows Media Center recorded television shows (in either WTV or DVR-MS formats) and then either move them into a folder for duplicates or delete them. Recordings that are sitting in the duplicates folder can be automatically deleted after a certain number of days.
+*A script which will identify all duplicate Windows Media Center recorded television shows (in either WTV or DVR-MS formats) and then either move them into a folder for duplicates or delete them. Recordings that are sitting in the duplicates folder can be automatically deleted after a certain number of days.*
+
+> [!CAUTION]
+> **This program is no longer supported or actively developed. As a result, no further updates, bug fixes, or support (including responses to issues or pull requests) will be provided. <br/>
+> <br/>
+> The final release is [version v1.5](https://github.com/mrsilver76/wmc-dedupe/releases/tag/v1.5). Developers interested in continuing the project are welcome to fork the repository.**
+
 
 ## Why use wmc-dedupe?
 
@@ -13,24 +19,24 @@ Ideally Microsoft (or their EPG provider) would fix the problem but, since Windo
 
 ## Features
 
-*  Highly configurable command line based program for running as a one off or as a scheduled task.
-*  Looks at WTV or DVR-MS files (with extensions wtv, dvr-ms or dvrms).
-*  Options to exclude examing WTV or DVR-MS files.
-*  Can delete duplicate shows or move them into a user defined duplicates folder.
-*  Only the larger duplicate recording is kept (meaning that HDTV or longer shows are prioritised)
-*  Can delete shows from the duplicates folder after they are older than a certain number of days.
-*  Test mode which doesn't delete or move files.
-*  Seven days worth of logs kept.
-*  Three levels of logging, from minimal to very verbose.
-*  Ability to pause after running to view the output.
-*  Can use the "Public Recorded TV" path or any other location.
-*  Automatically detects if a recording is occuring. Can be forced to ignore this if required.
-*  Pre-loading of meta-data for fast duplicate matching over a slow connection (such as a network).
-*  Duplicates identifed even if they have differing punctuation, capitalisation or accents.
-*  Descriptions with brackets (either square or normal) are handled correctly when comparing files.
-*  Common starting descriptions (e.g. "repeat", "premier" or "new") are handled when comparing files.
-*  Descriptions where the sub-title has been incorrectly placed into the description are handled when comparing files.
-*  Sanity checking to ensure that incorrect command line options don't destroy your recorded TV.
+* 🖥️ Highly configurable command line based program for running as a one off or as a scheduled task.
+* 🎥 Looks at WTV or DVR-MS files (with extensions wtv, dvr-ms or dvrms).
+* 🚫 Options to exclude examining WTV or DVR-MS files.
+* 🗑️ Can delete duplicate shows or move them into a user-defined duplicates folder.
+* 📺 Only the larger duplicate recording is kept (meaning that HDTV or longer shows are prioritised).
+* 🗓️ Can delete shows from the duplicates folder after they are older than a certain number of days.
+* 🔧 Test mode which doesn't delete or move files.
+* 📚 Seven days worth of logs kept.
+* 🔍 Three levels of logging, from minimal to very verbose.
+* ⏸️ Ability to pause after running to view the output.
+* 📂 Can use the "Public Recorded TV" path or any other location.
+* 🎬 Automatically detects if a recording is occurring. Can be forced to ignore this if required.
+* 🌐 Pre-loading of meta-data for fast duplicate matching over a slow connection (such as a network).
+* 🔄 Duplicates identified even if they have differing punctuation, capitalisation or accents.
+* 📝 Descriptions with brackets (either square or normal) are handled correctly when comparing files.
+* 🆕 Common starting descriptions (e.g. "repeat", "premier" or "new") are handled when comparing files.
+* 🏷️ Descriptions where the sub-title has been incorrectly placed into the description are handled when comparing files.
+* ⚠️ Sanity checking to ensure that incorrect command line options don't destroy your recorded TV.
 
 ## Requirements
 
